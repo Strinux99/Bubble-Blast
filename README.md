@@ -7,6 +7,7 @@ A playing field is initialized randomly with bubbles that can be found in 3 stat
 * 1: the bubble needs 3 increments to burst
 * 2: 2 increments are enough to make it burst
 * 3: one increment is enough to burst the bubble
+
 the status 0 indicates the absence of the bubble.
 When a bubble bursts it spreads in 4 directions (up, down, right and left) increasing the first bubble it encounters in each direction.
 The goal of the game is to pop all the bubbles in the minimum number of moves.
